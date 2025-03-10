@@ -4,7 +4,8 @@ This is 100% secure and free (no cost & no data leaves your execution environmen
 
 Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), [Chroma](https://www.trychroma.com/) and [SentenceTransformers](https://www.sbert.net/).
 ## Architecture
-<img width="603" alt="Architecture" src="https://github.com/SoumyadeepDebnath/chatWithFiles/assets/22044000/2355cfb2-8928-4167-a761-c1664b2f0202">
+<img width="603" alt="6_GenAI_Integrated_Workflow_Architecture" src="https://github.com/user-attachments/assets/8d3f1b43-5c43-420f-9ea0-fdd6cacfc773" />
+<img width="491" alt="7_GenAI_Segregated_Workflow_Architecture" src="https://github.com/user-attachments/assets/a31b61a7-5ce3-448d-871c-5f7c5ac566c9" />
 
 # Environment Setup
 In order to set your environment up to run the code here, first install all requirements:
@@ -38,12 +39,6 @@ TARGET_SOURCE_CHUNKS: The amount of chunks (sources) that will be used to answer
 ```
 
 Note: because of the way `langchain` loads the `SentenceTransformers` embeddings, the first time you run the script it will require internet connection to download the embeddings model itself.
-
-## Test dataset
-This repo uses a [Industrial_Pharmaceutical_Documentation](https://github.com/SoumyadeepDebnath/chatWithFiles/blob/main/source_documents/Industrial_Pharmaceutical_Documentation.pdf) as an example.
-
-#### Sample Output
-![image](https://github.com/SoumyadeepDebnath/chatWithFiles/assets/22044000/49b8eb45-d703-4be4-88d4-d63b902130a8)
 
 ## Instructions for ingesting your own dataset
 
